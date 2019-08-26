@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./assets/css/bootstrap.min.css";
 import "./assets/css/main.scss";
 import Header from "./common/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -16,7 +17,6 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <h1>Welcome to Course managment system</h1>
           <Header />
           <main>
             <Switch>
