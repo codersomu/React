@@ -1,0 +1,12 @@
+header {
+  width: 100%;
+  text-align: center;
+}
+
+header ul li {
+  list-style: none;
+  height: 100px;
+  float: left;
+  background-color: #fff;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  text-align: center;
+  .logo {
+    width: 60%;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #4947a5;
+    float: left;
+    text-align: left;
+  }
+
+  .menu {
+    width: 40%;
+    float: left;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    li {
+      list-style: none;
+      float: left;
+      height: 30px;
+      background-color: #dbdae6;
+      padding: 10px 0;
+      width:30%;
+
+      a{
+          text-decoration: none;
+      }
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}
